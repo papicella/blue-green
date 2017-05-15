@@ -1,0 +1,8 @@
+applications:
+- name: bluegreen-BLUE
+  memory: 512MB
+  # Make this unique by adding your name, initials or somesuch
+  host: pas-bluegreen-blue
+  domain: cfapps.io
+  path: ./blue.war
+
