@@ -1,8 +1,7 @@
 applications:
 - name: bluegreen-GREEN
   memory: 512MB
-  # Make this unique by adding your name, initials or somesuch
-  host: pas-bluegreen-green
+  random-route: true
   domain: cfapps.io
   path: ./green.war
 
